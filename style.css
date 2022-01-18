@@ -1,0 +1,32 @@
+body{
+    background-color: black;  
+}
+
+
+form{background-color: white;
+    padding: 0 0 0 5px }
+
+h1{font-family: 'Permanent Marker' cursive; 
+   font-size: 60px;
+   text-decoration: overline 1px;
+   font-weight: 200;
+   text-shadow: 0.01px 0.1px grey;
+}
+
+
+h3{font-family: 'Permanent Marker' cursive;
+   font-weight: 25;
+   font-size:22px;
+}
+
+label{font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+}
+
+
+.container{width:600px; 
+           height: 255px;
+           margin:auto;
+           }
+           
+/*#submit{margin:20px 0 20px 250px}*/

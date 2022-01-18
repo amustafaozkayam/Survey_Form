@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel='shortcut icon' href="claruslogo.jpg" type="image/jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Indie+Flower&family=Lobster+Two&family=Neonderthaw&family=Permanent+Marker&family=Rubik+Beastly&family=Viaoda+Libre&display=swap"
+    rel="stylesheet"/>
+    <title>Clarusway Survey Form</title>
+
+</head>
+<body>
+    <div class='container'>
+        
+        <section>
+        <div>
+        <form action='result.html'>
+            <h1>Clarusway Survey Form</h1>
+            <h3>Thank you for taking the time to help us improve the platform</h3>
+            <div class='inputbox'>
+                <label for name='name'>Name</label><br><br>
+                <input type="text" name='name' id='name' placeholder="Enter your name">
+            </div class='inputbox'>
+                <div>
+                <label for name='surname'>Surname</label><br><br>
+                <input type="text" name='surnaname' id='surname' placeholder="Enter your Surname">
+                </div>
+            <div class='inputbox'>
+                <label for name='email'>Email</label><br><br>
+                <input type="email" name='name' id='email' placeholder="user@clarusway.com">
+            </div>
+            <div class='inputbox'>
+                <label for name='role'>Which option best describes your current role?</label><br><br>
+                <select name= 'current role' id='role'>
+                    <option value= 'İnstructor' id='role' disabled selected>Select current role</option>
+                    <optgroup label='Trainer'>Trainer</optgroup>                
+                    <option value=' İnstructor' id='role'>Instructor</option>
+                    <option value= 'İnstructor' id='role'>Instructor Asistan</option>
+                    <optgroup label='Teaching Asistan'>Mentors</optgroup>
+                    <option value= 'Mentor' id='role'>Mentor</option>
+                    <option value=' Mentor'  id='role'>Mentor Asistan</option>
+                    <optgroup label='Others'>Others</optgroup>
+                    <option value= 'Student' id='role'>Student</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for='recommend'>Would you recommend Clarusway to a friend?</label><br>
+                <input type="radio" name='recommend' id='recommend' value='Definitely, Yes' checked>
+                <label>Definitiely, Yes</label><br></br>
+                <input type="radio" name='recommend' id='recommend' value='Maybe'>
+                <label>Maybe</label><br></br>
+                <input type="radio" name='recommend' id='recommend' value='Not Sure'>
+                <label>Not Sure</label><br></br>
+                <input type="radio" name='recommend' id='recommend' value='Definitely, no'>
+                <label>Definitiely, No</label><br></br>
+            </div>
+
+            <div class ='inputbox' >
+                <label>What is your favorite feature of Clarusway ?</label><br><br>
+                <select name='feature' id='feature'>
+                    <option disabled selected>Select an option</option>
+                    <option value= 'Data Sciece Path'>Data Science</option>
+                    <option value= 'Full stack Path'>Full Stack</option>
+                    <option value= 'Cyber Security Path'>Cyber Secrutiy</option>
+                 </select>
+            </div>
+            <br>
+            
+            <div class ='inputbox' >
+                <label>What would you like to see improved?(Check all that apply)</label><br><br>
+                <input type="checkbox" name='advice' id='frontend'>
+                <label for='advice1'>Front-end Projects</label><br>
+                <input type="checkbox" name='advice' id='backend'>
+                <label for='advice2'>Back-end Projects</label><br>
+                <input type="checkbox" name='advice' id='data'>
+                <label for='advice3'>Data Science</label><br>
+                <input type="checkbox" name='advice' id='additional'>
+                <label for='advice4'>Additional Courses</label><br><br>
+            </div>
+
+            <div class ='inputbox' >
+                <label>Any Comment or suggestions?</label><br><br>
+                <textarea name='comment' id='suggestion' placeholder='Enter your comment here, Thanks for your opinion' 
+                rows='5' cols='35'"></textarea>
+                <input type="submit" value='Submit'>
+            </div>   
+            <!-- <input type="submit" value='Submit' id='submit'>                 -->
+        </div> 
+          
+        </form>
+     </section>      
+    </div>    
+</body>
+</html>
